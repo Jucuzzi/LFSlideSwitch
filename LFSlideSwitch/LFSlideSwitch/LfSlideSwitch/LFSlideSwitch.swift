@@ -17,7 +17,7 @@ var switchView  = UIView.init()
 class LFSlideSwitch:  UIView{
     
     override func draw(_ rect: CGRect) {
-        self.backgroundColor = UIColor.clear;
+        self.backgroundColor = UIColor.white;
         //放入开关的背景
         let bgview = UIView.init(frame: CGRect.init(origin: CGPoint.init(x: 0, y: 0), size: CGSize.init(width: self.frame.size.width, height: self.frame.size.height)));
         bgview.backgroundColor = UIColor.white;
@@ -74,7 +74,7 @@ class LFSlideSwitch:  UIView{
         return on;
     }
     
-    func pangesture(sender:UIPanGestureRecognizer) {
+    @objc func pangesture(sender:UIPanGestureRecognizer) {
         if (on) {
             switch sender.state {
             case UIGestureRecognizerState.began:

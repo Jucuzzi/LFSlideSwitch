@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E5BDE9202AF85E00D9F41B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BDE8202AF85E00D9F41B /* AppDelegate.swift */; };
+		28E5BDEB202AF85F00D9F41B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BDEA202AF85F00D9F41B /* ViewController.swift */; };
+		28E5BDEE202AF85F00D9F41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E5BDEC202AF85F00D9F41B /* Main.storyboard */; };
+		28E5BDF0202AF85F00D9F41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E5BDEF202AF85F00D9F41B /* Assets.xcassets */; };
+		28E5BDF3202AF85F00D9F41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E5BDF1202AF85F00D9F41B /* LaunchScreen.storyboard */; };
+		28E5BDFE202AF85F00D9F41B /* LFSlideSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BDFD202AF85F00D9F41B /* LFSlideSwitchTests.swift */; };
+		28E5BE09202AF85F00D9F41B /* LFSlideSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BE08202AF85F00D9F41B /* LFSlideSwitchUITests.swift */; };
+		28E5BE1A202AFB0E00D9F41B /* LFSlideSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BE19202AFB0E00D9F41B /* LFSlideSwitch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28E5BDFA202AF85F00D9F41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E5BDDD202AF85E00D9F41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E5BDE4202AF85E00D9F41B;
+			remoteInfo = LFSlideSwitch;
+		};
+		28E5BE05202AF85F00D9F41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E5BDDD202AF85E00D9F41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E5BDE4202AF85E00D9F41B;
+			remoteInfo = LFSlideSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28E5BDE5202AF85E00D9F41B /* LFSlideSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFSlideSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E5BDE8202AF85E00D9F41B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28E5BDEA202AF85F00D9F41B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28E5BDED202AF85F00D9F41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28E5BDEF202AF85F00D9F41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28E5BDF2202AF85F00D9F41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28E5BDF4202AF85F00D9F41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E5BDF9202AF85F00D9F41B /* LFSlideSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFSlideSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E5BDFD202AF85F00D9F41B /* LFSlideSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSlideSwitchTests.swift; sourceTree = "<group>"; };
+		28E5BDFF202AF85F00D9F41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E5BE04202AF85F00D9F41B /* LFSlideSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFSlideSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E5BE08202AF85F00D9F41B /* LFSlideSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSlideSwitchUITests.swift; sourceTree = "<group>"; };
+		28E5BE0A202AF85F00D9F41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E5BE19202AFB0E00D9F41B /* LFSlideSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSlideSwitch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E5BDE2202AF85E00D9F41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E5BDF6202AF85F00D9F41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E5BE01202AF85F00D9F41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E5BDDC202AF85E00D9F41B = {
+			isa = PBXGroup;
+			children = (
+				28E5BDE7202AF85E00D9F41B /* LFSlideSwitch */,
+				28E5BDFC202AF85F00D9F41B /* LFSlideSwitchTests */,
+				28E5BE07202AF85F00D9F41B /* LFSlideSwitchUITests */,
+				28E5BDE6202AF85E00D9F41B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E5BDE6202AF85E00D9F41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BDE5202AF85E00D9F41B /* LFSlideSwitch.app */,
+				28E5BDF9202AF85F00D9F41B /* LFSlideSwitchTests.xctest */,
+				28E5BE04202AF85F00D9F41B /* LFSlideSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E5BDE7202AF85E00D9F41B /* LFSlideSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BDE8202AF85E00D9F41B /* AppDelegate.swift */,
+				28E5BDEA202AF85F00D9F41B /* ViewController.swift */,
+				28E5BE16202AF86900D9F41B /* LfSlideSwitch */,
+				28E5BDEC202AF85F00D9F41B /* Main.storyboard */,
+				28E5BDEF202AF85F00D9F41B /* Assets.xcassets */,
+				28E5BDF1202AF85F00D9F41B /* LaunchScreen.storyboard */,
+				28E5BDF4202AF85F00D9F41B /* Info.plist */,
+			);
+			path = LFSlideSwitch;
+			sourceTree = "<group>";
+		};
+		28E5BDFC202AF85F00D9F41B /* LFSlideSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BDFD202AF85F00D9F41B /* LFSlideSwitchTests.swift */,
+				28E5BDFF202AF85F00D9F41B /* Info.plist */,
+			);
+			path = LFSlideSwitchTests;
+			sourceTree = "<group>";
+		};
+		28E5BE07202AF85F00D9F41B /* LFSlideSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BE08202AF85F00D9F41B /* LFSlideSwitchUITests.swift */,
+				28E5BE0A202AF85F00D9F41B /* Info.plist */,
+			);
+			path = LFSlideSwitchUITests;
+			sourceTree = "<group>";
+		};
+		28E5BE16202AF86900D9F41B /* LfSlideSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BE19202AFB0E00D9F41B /* LFSlideSwitch.swift */,
+			);
+			path = LfSlideSwitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E5BDE4202AF85E00D9F41B /* LFSlideSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E5BE0D202AF85F00D9F41B /* Build configuration list for PBXNativeTarget "LFSlideSwitch" */;
+			buildPhases = (
+				28E5BDE1202AF85E00D9F41B /* Sources */,
+				28E5BDE2202AF85E00D9F41B /* Frameworks */,
+				28E5BDE3202AF85E00D9F41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFSlideSwitch;
+			productName = LFSlideSwitch;
+			productReference = 28E5BDE5202AF85E00D9F41B /* LFSlideSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28E5BDF8202AF85F00D9F41B /* LFSlideSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E5BE10202AF85F00D9F41B /* Build configuration list for PBXNativeTarget "LFSlideSwitchTests" */;
+			buildPhases = (
+				28E5BDF5202AF85F00D9F41B /* Sources */,
+				28E5BDF6202AF85F00D9F41B /* Frameworks */,
+				28E5BDF7202AF85F00D9F41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E5BDFB202AF85F00D9F41B /* PBXTargetDependency */,
+			);
+			name = LFSlideSwitchTests;
+			productName = LFSlideSwitchTests;
+			productReference = 28E5BDF9202AF85F00D9F41B /* LFSlideSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28E5BE03202AF85F00D9F41B /* LFSlideSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E5BE13202AF85F00D9F41B /* Build configuration list for PBXNativeTarget "LFSlideSwitchUITests" */;
+			buildPhases = (
+				28E5BE00202AF85F00D9F41B /* Sources */,
+				28E5BE01202AF85F00D9F41B /* Frameworks */,
+				28E5BE02202AF85F00D9F41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E5BE06202AF85F00D9F41B /* PBXTargetDependency */,
+			);
+			name = LFSlideSwitchUITests;
+			productName = LFSlideSwitchUITests;
+			productReference = 28E5BE04202AF85F00D9F41B /* LFSlideSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E5BDDD202AF85E00D9F41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "LiFeng Wang";
+				TargetAttributes = {
+					28E5BDE4202AF85E00D9F41B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					28E5BDF8202AF85F00D9F41B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28E5BDE4202AF85E00D9F41B;
+					};
+					28E5BE03202AF85F00D9F41B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28E5BDE4202AF85E00D9F41B;
+					};
+				};
+			};
+			buildConfigurationList = 28E5BDE0202AF85E00D9F41B /* Build configuration list for PBXProject "LFSlideSwitch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28E5BDDC202AF85E00D9F41B;
+			productRefGroup = 28E5BDE6202AF85E00D9F41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E5BDE4202AF85E00D9F41B /* LFSlideSwitch */,
+				28E5BDF8202AF85F00D9F41B /* LFSlideSwitchTests */,
+				28E5BE03202AF85F00D9F41B /* LFSlideSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E5BDE3202AF85E00D9F41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5BDF3202AF85F00D9F41B /* LaunchScreen.storyboard in Resources */,
+				28E5BDF0202AF85F00D9F41B /* Assets.xcassets in Resources */,
+				28E5BDEE202AF85F00D9F41B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E5BDF7202AF85F00D9F41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E5BE02202AF85F00D9F41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E5BDE1202AF85E00D9F41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5BDEB202AF85F00D9F41B /* ViewController.swift in Sources */,
+				28E5BDE9202AF85E00D9F41B /* AppDelegate.swift in Sources */,
+				28E5BE1A202AFB0E00D9F41B /* LFSlideSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E5BDF5202AF85F00D9F41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5BDFE202AF85F00D9F41B /* LFSlideSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E5BE00202AF85F00D9F41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5BE09202AF85F00D9F41B /* LFSlideSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E5BDFB202AF85F00D9F41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E5BDE4202AF85E00D9F41B /* LFSlideSwitch */;
+			targetProxy = 28E5BDFA202AF85F00D9F41B /* PBXContainerItemProxy */;
+		};
+		28E5BE06202AF85F00D9F41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E5BDE4202AF85E00D9F41B /* LFSlideSwitch */;
+			targetProxy = 28E5BE05202AF85F00D9F41B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28E5BDEC202AF85F00D9F41B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E5BDED202AF85F00D9F41B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28E5BDF1202AF85F00D9F41B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E5BDF2202AF85F00D9F41B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E5BE0B202AF85F00D9F41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28E5BE0C202AF85F00D9F41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28E5BE0E202AF85F00D9F41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZKHJC95EE;
+				INFOPLIST_FILE = LFSlideSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncle.LFSlideSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28E5BE0F202AF85F00D9F41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZKHJC95EE;
+				INFOPLIST_FILE = LFSlideSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncle.LFSlideSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28E5BE11202AF85F00D9F41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZKHJC95EE;
+				INFOPLIST_FILE = LFSlideSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncle.LFSlideSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFSlideSwitch.app/LFSlideSwitch";
+			};
+			name = Debug;
+		};
+		28E5BE12202AF85F00D9F41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZKHJC95EE;
+				INFOPLIST_FILE = LFSlideSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncle.LFSlideSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFSlideSwitch.app/LFSlideSwitch";
+			};
+			name = Release;
+		};
+		28E5BE14202AF85F00D9F41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZKHJC95EE;
+				INFOPLIST_FILE = LFSlideSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncle.LFSlideSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFSlideSwitch;
+			};
+			name = Debug;
+		};
+		28E5BE15202AF85F00D9F41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZKHJC95EE;
+				INFOPLIST_FILE = LFSlideSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uncle.LFSlideSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFSlideSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E5BDE0202AF85E00D9F41B /* Build configuration list for PBXProject "LFSlideSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E5BE0B202AF85F00D9F41B /* Debug */,
+				28E5BE0C202AF85F00D9F41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E5BE0D202AF85F00D9F41B /* Build configuration list for PBXNativeTarget "LFSlideSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E5BE0E202AF85F00D9F41B /* Debug */,
+				28E5BE0F202AF85F00D9F41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E5BE10202AF85F00D9F41B /* Build configuration list for PBXNativeTarget "LFSlideSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E5BE11202AF85F00D9F41B /* Debug */,
+				28E5BE12202AF85F00D9F41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E5BE13202AF85F00D9F41B /* Build configuration list for PBXNativeTarget "LFSlideSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E5BE14202AF85F00D9F41B /* Debug */,
+				28E5BE15202AF85F00D9F41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E5BDDD202AF85E00D9F41B /* Project object */;
+}
